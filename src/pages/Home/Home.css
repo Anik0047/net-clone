@@ -53,3 +53,11 @@
     color: #fff;
     background-color: #6d6d6eb3;
 }
+
+.hero_btn .btn:hover {
+    background: #ffffffbf;
+}
+
+.hero_btn .btn.dark_btn:hover {
+    background: #6d6d6e66;
+}
