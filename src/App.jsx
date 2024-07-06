@@ -5,6 +5,7 @@ import Player from './pages/Player/Player'
 import { Routes, Route } from 'react-router-dom';
 
 const App = () => {
+  console.log('Firebase API Key:', process.env.REACT_APP_FIREBASE_API_KEY);
   return (
     <div>
       <Routes>
