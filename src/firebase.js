@@ -1,18 +1,14 @@
 import { initializeApp } from "firebase/app";
 import { createUserWithEmailAndPassword, getAuth, signInWithEmailAndPassword, signOut } from "firebase/auth";
-import { addDoc, collection, getFirestore } from "firebase/getFirestore";
-
-import dotenv from 'dotenv';
-
-dotenv.config();
+import { addDoc, collection, getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-    apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
-    authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
-    projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
-    storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
-    messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
-    appId: process.env.REACT_APP_FIREBASE_APP_ID
+  apiKey: "AIzaSyCLlRAYhVYc3J2SXNw80OGSCqoqvVZMISA",
+  authDomain: "netflix-clone-454f2.firebaseapp.com",
+  projectId: "netflix-clone-454f2",
+  storageBucket: "netflix-clone-454f2.appspot.com",
+  messagingSenderId: "965244519270",
+  appId: "1:965244519270:web:872a229516ba032f8abea7"
 };
 
 // Initialize Firebase
